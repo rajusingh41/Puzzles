@@ -1,9 +1,4 @@
 ﻿using Puzzles.StringLib;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Puzzles.Console
 {
@@ -14,9 +9,15 @@ namespace Puzzles.Console
 
             // StringLib 
 
-            var pharse = "abcde";
+            var phrase = "one two three foure five";
 
-            var restul = new EncryptString().Encrypt(pharse);
+            var reverseString = new ReverseString().GetReverseString(phrase);
+
+            System.Console.WriteLine("original text :  {0} , Reverse Text: {1}", phrase, reverseString);
+            System.Console.ReadLine();
+
+
+           // var restul = new EncryptString().Encrypt(phrase);
         }
     }
 }
