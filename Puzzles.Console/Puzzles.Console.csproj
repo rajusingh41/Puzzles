@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Puzzles.StringLib\Puzzles.StringLib.csproj">
+      <Project>{0B1FA20D-77E8-4B72-8A04-E3887A521353}</Project>
+      <Name>Puzzles.StringLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
