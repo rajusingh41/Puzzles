@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzles.StringLib", "Puzzle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicatePairs", "FindDuplicatePairs\FindDuplicatePairs.csproj", "{B3B340EB-D4EA-4A18-A2B8-D60C80D1B5B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicateNumbers", "FindDuplicateNumbers\FindDuplicateNumbers.csproj", "{83AC2BFD-0359-4E86-BFB5-0998313AFDBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B3B340EB-D4EA-4A18-A2B8-D60C80D1B5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3B340EB-D4EA-4A18-A2B8-D60C80D1B5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3B340EB-D4EA-4A18-A2B8-D60C80D1B5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83AC2BFD-0359-4E86-BFB5-0998313AFDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AC2BFD-0359-4E86-BFB5-0998313AFDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AC2BFD-0359-4E86-BFB5-0998313AFDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AC2BFD-0359-4E86-BFB5-0998313AFDBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
