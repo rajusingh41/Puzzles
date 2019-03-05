@@ -76,6 +76,7 @@ namespace DuplicatNuber
                     Console.WriteLine("Number {0} occurred {1} times.\t\n", item.Key, item.Count());
                 }
             }
+
             Console.WriteLine("Total duplicate record is {0} \t\n ", _duplicates);
             #endregion
             Console.ReadLine();
